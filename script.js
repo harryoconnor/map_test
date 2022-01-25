@@ -25,6 +25,10 @@ colorScale = d3.scaleLinear().domain([100, 180]).range(["#F7FBFF", "#08306B"]);
 
 //colorScale = d3.scaleLinear().domain([100, 180]).range(["#b4c1cf", "#006edb"]);
 
+document.querySelectorAll('input[type="range"]').forEach((input) => { 
+  input.addEventListener('mousedown',  () => window.getSelection().removeAllRanges());
+});
+
 
 function zoomed({transform}) {
     g.attr("transform", transform);
