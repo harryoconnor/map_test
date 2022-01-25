@@ -40,7 +40,7 @@ const pathGenerator = d3.geoPath().projection(projection)
 
 const csv_files = ["result2014.csv","result2015.csv","result2016.csv","result2017.csv"]
 
-Promise.all([d3.json("http://martinjc.github.io/UK-GeoJSON/json/eng/topo_eer.json")
+Promise.all([d3.json("https://martinjc.github.io/UK-GeoJSON/json/eng/topo_eer.json")
 ,d3.csv('result2014.csv'),
 d3.csv('result2015.csv'),
 d3.csv('result2016.csv'),
