@@ -1,0 +1,28 @@
+
+
+.slidecontainer {
+    width: 30%; /* Width of the outside container */
+  }
+
+  .slider {
+
+    width: 30%; /* Full-width */
+
+  }
+
+body {
+    font-size: 1em;
+}
+svg {
+    background-color: rgb(238, 224, 224);
+}
+
+/*
+path {
+    stroke:black;
+    stroke-opacity: 0.4;
+}
+*/
+.test:hover{
+    fill:red;
+}

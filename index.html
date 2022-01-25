@@ -8,12 +8,16 @@
     <link rel="stylesheet" href ="styles.css">
   </head>
   <body>
-    <h1>This is a Heading</h1>
-    <p>This is a paragraph</p>
+    <h1>Average distance students travel </h1>
+    <div class="slidecontainer">
+      <input type="range" min="2014" max="2019" value="2014" class="slider" id="myRange">
+      <p id="demo"> 5 </p>
+    </div>
     <svg width = "800" height ="500">
     </svg>
     </ul>
   </body>
   <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/topojson@3.0.2/dist/topojson.js"></script>
   <script src="script.js"></script>
 </html>
